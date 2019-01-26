@@ -15,36 +15,21 @@ export default class App extends Component<Props> {
     render() {
         return (
             <View style={styles.container}>
-                <StatusBar
-                    barStyle="light-content"
-                />
+                <View style={{flex:.02}}>
+                    <StatusBar
+                        barStyle="light-content"
+                    />
+                </View>
+                <View style={styles.header}>
 
-
-
-                <Header
-                    backgroundColor={'#011638'}
-                    borderBottomWidth={5}
-                    borderBottomColor={'#6369D1'}
-
-                    containerStyle={{
-                        backgroundColor: '#ffffff',
-                        justifyContent: 'space-around',
-                        color:'#ffffff',
-                        borderBottomColor:'#6369D1',
-                        borderBottomWidth:5,
-                    }}
-                    leftComponent={{ icon: 'menu', color: '#6369D1' }}
-                    centerComponent={{ text: 'ASTROBUDDY', style: { color: '#6369D1' }, fontSize:20, }}
-                    // rightComponent={{ icon: 'home', color: '#fff' }}
-
-
-                />
-            <View >
-                <Text style={styles.welcome}>Welcome to React Native! weather</Text>
-                <Text style={styles.instructions}>To get started, edit App.js</Text>
-                <Text style={styles.instructions}>{instructions}</Text>
+                    <Text style={styles.text}> Weather </Text>
+                </View >
+                <View style={{flex:9/10}}>
+                    <Text style={styles.welcome}>Welcome to React Native! weather</Text>
+                    <Text style={styles.instructions}>To get started, edit App.js</Text>
+                    <Text style={styles.instructions}>{instructions}</Text>
+                </View>
             </View>
-        </View>
         );
     }
 }
@@ -55,7 +40,6 @@ const styles = StyleSheet.create({
         // justifyContent: 'center',
         // alignItems: 'center',
         backgroundColor: '#011638',
-
     },
     welcome: {
         fontSize: 20,
@@ -67,10 +51,17 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         color: 'white',
         marginBottom: 5,
-
     },
-    headerStyle: {
-        backgroundColor: '#ffffff',
+    header: {
+        flex:1/10,
+        height: 20,
+        borderBottomColor: '#6369D1',
+        borderBottomWidth:1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    text:{
+        fontSize: 25,
+        color:'#6369D1',
     }
-
 });
