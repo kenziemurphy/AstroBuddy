@@ -12,25 +12,71 @@ const instructions = Platform.select({
 type Props = {};
 export default class App extends Component<Props> {
 
-    render() {
-        return (
-            <View style={styles.container}>
-                <View style={{flex:.02}}>
-                    <StatusBar
-                        barStyle="light-content"
-                    />
-                </View>
-                <View style={styles.header}>
+    constructor(props) {
+        super(props);
 
-                    <Text style={styles.text}> Weather </Text>
-                </View >
-                <View style={{flex:9/10}}>
-                    <Text style={styles.welcome}>Welcome to React Native! weather</Text>
-                    <Text style={styles.instructions}>To get started, edit App.js</Text>
-                    <Text style={styles.instructions}>{instructions}</Text>
+        // initialize state
+        this.state = {
+            data: null
+        };
+
+        // load weather data
+        this.loadWeather();
+    }
+
+    render() {
+
+        // if weather is still loading
+        if(this.state.weather === null || this.state.weather === undefined) {
+            return (
+                <View style={styles.container}>
+                    <View style={{flex:.02}}>
+                        <StatusBar
+                            barStyle="light-content"
+                        />
+                    </View>
+                    <View style={styles.header}>
+
+                        <Text style={styles.text}> Weather </Text>
+                    </View >
+                    <View style={{flex:9/10}}>
+                        <Text style={styles.welcome}>Loading weather...</Text>
+                    </View>
                 </View>
-            </View>
-        );
+            );
+        } else {
+            return (
+                <View style={styles.container}>
+                    <View style={{flex:.02}}>
+                        <StatusBar
+                            barStyle="light-content"
+                        />
+                    </View>
+                    <View style={styles.header}>
+
+                        <Text style={styles.text}> Weather </Text>
+                    </View >
+                    <View style={{flex:9/10}}>
+                        <Text style={styles.welcome}>{this.state.weather["temperature"]}</Text>
+                    </View>
+                </View>
+            );
+        }
+    }
+
+    loadWeather() {
+
+        // get weather data from the server
+        return fetch('https://api.darksky.net/forecast/ece7aeb726d23f4ead9f3471e7b4088a/33.77483,-84.38048')
+            .then((response) => response.json())
+            .then((weather) => {
+
+            // update state with the newly loaded weather data
+            this.setState({
+                weather: weather["currently"]
+            });
+        });
+
     }
 }
 
