@@ -9,10 +9,16 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-import {createBottomTabNavigator, createAppContainer } from 'react-navigation';
+import {
+    createBottomTabNavigator,
+    createAppContainer,
+    createStackNavigator,
+    createSwitchNavigator
+} from 'react-navigation';
 import weather from "./weather";
 import moon from "./moon";
 import horoscope from "./horoscope";
+import horoscopeinfo from './horoscopeinfo'
 import IonIcon from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 // import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -21,6 +27,17 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 //https://reactnavigation.org/docs/en/tab-based-navigation.html
 
 
+export const HoroscopeStack = createSwitchNavigator({
+
+    Horoscope: {
+        screen: horoscope,
+    },
+    horoscopeinfo: {
+        screen: horoscopeinfo,
+    },
+
+    headerMode: 'none'
+});
 
 // creates a tab bar at the bottom of screens with icons for Map, Schedule, Settings, and Inbox that allows navigation
 // between them
@@ -56,7 +73,7 @@ const menuBar = createBottomTabNavigator({
             },
         },
         Horoscope: {
-            screen: horoscope,
+            screen: HoroscopeStack,
             navigationOptions: {
                 tabBarLabel: 'Horoscope',
                 tabBarIcon: ({tintColor}) => (

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Platform, StatusBar, StyleSheet, Text, View, Image} from 'react-native';
 import {Card} from "react-native-elements";
-import horoscopeinfo from './horoscopeinfo';
+import horoscope from './horoscope';
 
 const instructions = Platform.select({
     ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -13,7 +13,6 @@ const instructions = Platform.select({
 type Props = {};
 export default class App extends Component<Props> {
     render() {
-        const {navigate} = this.props.navigation;
         return (
             <View style={styles.container}>
                 <View style={{flex:.02}}>
@@ -26,27 +25,28 @@ export default class App extends Component<Props> {
                     <Text style={styles.text}> Horoscope </Text>
                 </View >
 
-                <View style={{flex:9/10,}}>
+                <View style={{flex:9/10}}>
 
-                <View style={styles.card} onPress={() => navigate('horoscopeinfo')}>
+                    <View style={styles.card}>
+                        <View style={{height: 40, borderBottomWidth: 1, borderBottomColor:'#FAF3F4',textAlign: 'center',
+                            justifyContent: 'center', borderBottomLeftRadius:10, borderBottomRightRadius:10,}}>
+                            <Text style={styles.cardHeader}> SCORPIO</Text>
+                        </View>
+                        <Text style={{marginTop: 10, color:'#FAF3F4' }}> stuf lots of tstuf theithksth tskfhstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskf</Text>
 
-                    <Image style={{ top:26,marginRight:20,}} source={require('./images/scorpio.png')}>
-                    </Image>
-                    <Text style={styles.cardHeader}> SCORPIO</Text>
-
-                </View>
+                    </View>
                     {/*<Card*/}
-                        {/*title='Scorpio'>*/}
-                        {/*<View style={{flexDirection: 'row',alignItems: 'space-between', justifyContent: 'center'}}>*/}
+                    {/*title='Scorpio'>*/}
+                    {/*<View style={{flexDirection: 'row',alignItems: 'space-between', justifyContent: 'center'}}>*/}
 
-                        {/*<Image source={require('./images/scorpio.png')}>*/}
-                        {/*</Image>*/}
+                    {/*<Image source={require('./images/scorpio.png')}>*/}
+                    {/*</Image>*/}
 
 
-                        {/*<Text style={{marginBottom: 10}}>*/}
-                            {/*The idea with React Native Elements is more about component structure than actual design.*/}
-                        {/*</Text>*/}
-                        {/*</View>*/}
+                    {/*<Text style={{marginBottom: 10}}>*/}
+                    {/*The idea with React Native Elements is more about component structure than actual design.*/}
+                    {/*</Text>*/}
+                    {/*</View>*/}
                     {/*</Card>*/}
 
 
@@ -87,23 +87,17 @@ const styles = StyleSheet.create({
         color:'#6369D1',
     },
     cardHeader:{
-        fontSize: 30,
+        fontSize: 25,
         color:'#FAF3F4',
-        // textAlign: 'center',
-        // justifyContent: 'center',
-        // flexDirection: 'column',
-        top:23,
+        textAlign: 'center',
+        justifyContent: 'center',
 
     },
     card:{
         backgroundColor:'#2F405C',
-        height: 80,
+        height: 160,
         // marginLeft: 10,
         // marginRight: 10,
         margin: 10,
-        flexDirection: 'row',
-        textAlign: 'center',
-        justifyContent: 'center',
-
     }
 });
