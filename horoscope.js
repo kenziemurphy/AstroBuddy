@@ -1,19 +1,14 @@
 import React, {Component} from 'react';
 import {Platform, StatusBar, StyleSheet, Text, View, Image} from 'react-native';
-import {Card} from "react-native-elements";
+import {Button, Card} from "react-native-elements";
 import horoscopeinfo from './horoscopeinfo';
+import {withNavigation} from "react-navigation";
 
-const instructions = Platform.select({
-    ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-    android:
-        'Double tap R on your keyboard to reload,\n' +
-        'Shake or press menu button for dev menu',
-});
+
 
 type Props = {};
-export default class App extends Component<Props> {
+class horoscope extends Component<Props> {
     render() {
-        const {navigate} = this.props.navigation;
         return (
             <View style={styles.container}>
                 <View style={{flex:.02}}>
@@ -23,16 +18,16 @@ export default class App extends Component<Props> {
                 </View>
                 <View style={styles.header}>
 
-                    <Text style={styles.text}> Horoscope </Text>
+                    <Text style={styles.text}  > Horoscope </Text>
                 </View >
 
                 <View style={{flex:9/10,}}>
 
-                <View style={styles.card} onPress={() => navigate('horoscopeinfo')}>
+                <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                     <Image style={{ top:26,marginRight:20,}} source={require('./images/scorpio.png')}>
                     </Image>
-                    <Text style={styles.cardHeader}> SCORPIO</Text>
+                    <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> SCORPIO</Text>
 
                 </View>
                     {/*<Card*/}
@@ -107,3 +102,5 @@ const styles = StyleSheet.create({
 
     }
 });
+
+export default withNavigation(horoscope)

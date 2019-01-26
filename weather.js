@@ -10,7 +10,7 @@ const instructions = Platform.select({
 });
 
 type Props = {};
-export default class App extends Component<Props> {
+export default class weather extends Component<Props> {
 
     render() {
         return (

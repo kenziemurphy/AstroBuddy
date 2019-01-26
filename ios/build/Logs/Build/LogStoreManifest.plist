@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>44BF16B9-C280-4EFE-9C0F-FBF672897B0C</key>
+		<key>EA926BC8-237F-417B-B95C-97CEEFA20A01</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>44BF16B9-C280-4EFE-9C0F-FBF672897B0C.xcactivitylog</string>
+			<string>EA926BC8-237F-417B-B95C-97CEEFA20A01.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,13 @@
 			<key>signature</key>
 			<string>Building project AstroBuddy with scheme AstroBuddy and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>570229351.25859499</real>
+			<real>570235712.20090604</real>
 			<key>timeStoppedRecording</key>
-			<real>570229352.71385503</real>
+			<real>570235717.23844302</real>
 			<key>title</key>
 			<string>Building project AstroBuddy with scheme AstroBuddy and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>44BF16B9-C280-4EFE-9C0F-FBF672897B0C</string>
+			<string>EA926BC8-237F-417B-B95C-97CEEFA20A01</string>
 		</dict>
 	</dict>
 </dict>

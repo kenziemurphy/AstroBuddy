@@ -28,13 +28,14 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
 export const HoroscopeStack = createSwitchNavigator({
-
-    Horoscope: {
+    horoscope: {
         screen: horoscope,
     },
     horoscopeinfo: {
         screen: horoscopeinfo,
     },
+
+
 
     headerMode: 'none'
 });
