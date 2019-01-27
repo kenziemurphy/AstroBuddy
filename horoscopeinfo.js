@@ -33,7 +33,7 @@ type Props = {};
                             justifyContent: 'center', borderBottomLeftRadius:10, borderBottomRightRadius:10,}}>
                             <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscope')}> SCORPIO</Text>
                         </View>
-                        <Text style={{marginTop: 10, color:'#FAF3F4' }}> stuf lots of tstuf theithksth tskfhstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskf</Text>
+                        <Text style={{margin: 10, color:'#FAF3F4' }}> stuf lots of tstuf theithksth tskfhstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskf</Text>
 
                     {/*</View>*/}
                     {/*<Card*/}
