@@ -4,8 +4,6 @@ import {Button, Card} from "react-native-elements";
 import horoscopeinfo from './horoscopeinfo';
 import {withNavigation} from "react-navigation";
 
-
-
 type Props = {};
 class horoscope extends Component<Props> {
     render() {

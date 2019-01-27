@@ -18,7 +18,7 @@ export default class weather extends Component<Props> {
 
         // initialize state
         this.state = {
-            data: null
+            weather: null
         };
 
         // load weather data
