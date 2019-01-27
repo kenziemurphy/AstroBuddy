@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
         // marginLeft: 10,
         // marginRight: 10,
         margin: 10,
-        
+
     }
 });
 export default withNavigation(horoscopeinfo)
