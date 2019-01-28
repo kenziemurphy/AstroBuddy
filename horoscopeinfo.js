@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {Platform, StatusBar, StyleSheet, Text, View, Image, Dimensions} from 'react-native';
-import {Card} from "react-native-elements";
+import {Platform, StatusBar, StyleSheet, Text, View, Image, Dimensions, TouchableOpacity} from 'react-native';
+import {Button, Card} from "react-native-elements";
 import horoscope from './horoscope';
 import {withNavigation} from "react-navigation";
 import {Emitter} from "react-native-particles";
@@ -35,10 +35,15 @@ type Props = {};
                     <View style={styles.card}>
                         <View style={{height: 40, borderBottomWidth: 1, borderBottomColor:'#FAF3F4',textAlign: 'center',
                             justifyContent: 'center', borderBottomLeftRadius:10, borderBottomRightRadius:10,}}>
-                            <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscope')}> SCORPIO</Text>
+                            <Text style={styles.cardHeader}> SCORPIO</Text>
                         </View>
                         <Text style={{margin: 10, color:'#FAF3F4' }}> stuf lots of tstuf theithksth tskfhstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskf</Text>
 
+                        <TouchableOpacity  style={{alignSelf:'center', marginTop: 15}} onPress={()=> this.props.navigation.navigate('horoscope')}>
+                            <View style={{backgroundColor:'#FAF3F4', }}>
+                            <Text style={{color:'#2F405C', fontSize:15, textAlign: 'center', paddingRight:3}}> RETURN </Text>
+                            </View>
+                        </TouchableOpacity>
 
 
 

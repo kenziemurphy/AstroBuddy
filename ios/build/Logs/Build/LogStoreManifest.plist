@@ -35,6 +35,35 @@
 			<key>uniqueIdentifier</key>
 			<string>4079E594-2A0D-4EE6-A028-07F1DA608613</string>
 		</dict>
+		<key>CC4D4A45-F4DE-420A-9233-A07F49F3F92A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CC4D4A45-F4DE-420A-9233-A07F49F3F92A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>AstroBuddy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AstroBuddy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project AstroBuddy with scheme AstroBuddy and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>570403289.26608801</real>
+			<key>timeStoppedRecording</key>
+			<real>570403290.50444198</real>
+			<key>title</key>
+			<string>Building project AstroBuddy with scheme AstroBuddy and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>CC4D4A45-F4DE-420A-9233-A07F49F3F92A</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
