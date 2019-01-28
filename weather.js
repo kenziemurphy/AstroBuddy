@@ -1,14 +1,9 @@
 import React, {Component, } from 'react';
-import {Platform, StyleSheet, Text, View, StatusBar, ImageBackground} from 'react-native';
+import {Platform, StyleSheet, Text, View, StatusBar, ImageBackground, Dimensions, Image} from 'react-native';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { Emitter } from 'react-native-particles';
 
-const instructions = Platform.select({
-    ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-    android:
-        'Double tap R on your keyboard to reload,\n' +
-        'Shake or press menu button for dev menu',
-});
 
 type Props = {};
 export default class weather extends Component<Props> {
@@ -72,6 +67,60 @@ export default class weather extends Component<Props> {
         } else {
             return (
                 <View style={styles.container}>
+                    <Emitter
+                        numberOfParticles={50}
+                        emissionRate={5}
+                        interval={200}
+                        particleLife={9500}
+                        direction={90}
+                        spread={90}
+                        fromPosition={{ x: Dimensions.get('window').width / 5, y: 0 }}
+                        gravity={40}
+                        speed={50}
+                    >
+                        <Image source={require('./images/rain.png')} ></Image>
+                        {/*https://www.google.com/search?q=raindrop&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjcuZ-fwI_gAhWPl-AKHa9YAVsQ_AUIDigB&biw=1440&bih=736&dpr=2#imgrc=wwyOPjyecLMAHM:*/}
+                        {/*https://www.flaticon.com/free-icon/snow-symbol_80197*/}
+                    </Emitter>
+                    <Emitter
+                        numberOfParticles={50}
+                        emissionRate={5}
+                        interval={200}
+                        particleLife={9500}
+                        direction={90}
+                        spread={90}
+                        fromPosition={{ x: (Dimensions.get('window').width * 2) / 5, y: 0 }}
+                        gravity={40}
+                        speed={50}
+                    >
+                        <Image source={require('./images/rain.png')} ></Image>
+                    </Emitter>
+                    <Emitter
+                        numberOfParticles={50}
+                        emissionRate={5}
+                        interval={200}
+                        particleLife={9500}
+                        direction={90}
+                        spread={90}
+                        fromPosition={{ x: (Dimensions.get('window').width * 3) / 5, y: 0 }}
+                        gravity={40}
+                        speed={50}
+                    >
+                        <Image source={require('./images/rain.png')} ></Image>
+                    </Emitter>
+                    <Emitter
+                        numberOfParticles={50}
+                        emissionRate={5}
+                        interval={200}
+                        particleLife={9500}
+                        direction={90}
+                        spread={90}
+                        fromPosition={{ x: (Dimensions.get('window').width * 4) / 5, y: 0 }}
+                        gravity={40}
+                        speed={50}
+                        >
+                        <Image source={require('./images/rain.png')} ></Image>
+                    </Emitter>
                     <View style={{flex:.02}}>
                         <StatusBar
                             barStyle="light-content"
@@ -81,20 +130,21 @@ export default class weather extends Component<Props> {
                         <Text style={styles.text}> Weather </Text>
                     </View >
                     <View style={{flex:9/10}}>
+
                         <View style={styles.card}>
-                            <View style={{height: 90, borderBottomWidth: 1, borderBottomColor:'#FAF3F4',textAlign: 'center',
+                            <View style={{height: 150, borderBottomWidth: 1, borderBottomColor:'#FAF3F4',textAlign: 'center',
                                 justifyContent: 'center',alignItems:"center", borderBottomLeftRadius:10, borderBottomRightRadius:10,}}>
                                 <Icon
                                     name={weatherIcons[this.state.weather["icon"]]}
                                     color={'#FAF3F4'}
-                                    size={50}
+                                    size={100}
                                 />
                                 <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscope')}>{this.state.weather["summary"]}</Text>
                             </View>
-                            <Text style={{margin: 7, color:'#FAF3F4' }}>Temperature: {this.state.weather["temperature"]}°F</Text>
-                            <Text style={{margin: 7, color:'#FAF3F4' }}>Precipitation: {this.state.weather["precipProbability"] * 100}%</Text>
-                            <Text style={{margin: 7, color:'#FAF3F4' }}>Humidity: {this.state.weather["humidity"] * 100}%</Text>
-                            <Text style={{margin: 7, color:'#FAF3F4' }}>Wind: {this.state.weather["windSpeed"]} mph</Text>
+                            <Text style={{margin: 10,marginTop: 20, color:'#FAF3F4', fontSize:18 }}>Temperature: {this.state.weather["temperature"]}°F</Text>
+                            <Text style={{margin: 10, color:'#FAF3F4' , fontSize:18}}>Precipitation: {this.state.weather["precipProbability"] * 100}%</Text>
+                            <Text style={{margin: 10, color:'#FAF3F4' , fontSize:18}}>Humidity: {this.state.weather["humidity"] * 100}%</Text>
+                            <Text style={{margin: 10, color:'#FAF3F4' , fontSize:18}}>Wind: {this.state.weather["windSpeed"]} mph</Text>
                         </View>
                     </View>
                 </View>
@@ -166,7 +216,7 @@ const styles = StyleSheet.create({
     },
     card:{
         backgroundColor:'#2F405C',
-        height: 222,
+        height: 350,
         // marginLeft: 10,
         // marginRight: 10,
         margin: 10,

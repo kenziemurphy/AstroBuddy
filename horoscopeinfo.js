@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
-import {Platform, StatusBar, StyleSheet, Text, View, Image} from 'react-native';
+import {Platform, StatusBar, StyleSheet, Text, View, Image, Dimensions} from 'react-native';
 import {Card} from "react-native-elements";
 import horoscope from './horoscope';
 import {withNavigation} from "react-navigation";
+import {Emitter} from "react-native-particles";
 
 const instructions = Platform.select({
     ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -15,12 +16,15 @@ type Props = {};
  class horoscopeinfo extends Component<Props> {
     render() {
         return (
+
             <View style={styles.container}>
+
                 <View style={{flex:.02}}>
                     <StatusBar
                         barStyle="light-content"
                     />
                 </View>
+
                 <View style={styles.header}>
 
                     <Text  style={styles.text}> Horoscope  </Text>
@@ -35,25 +39,13 @@ type Props = {};
                         </View>
                         <Text style={{margin: 10, color:'#FAF3F4' }}> stuf lots of tstuf theithksth tskfhstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskf</Text>
 
-                    {/*</View>*/}
-                    {/*<Card*/}
-                    {/*title='Scorpio'>*/}
-                    {/*<View style={{flexDirection: 'row',alignItems: 'space-between', justifyContent: 'center'}}>*/}
 
-                    {/*<Image source={require('./images/scorpio.png')}>*/}
-                    {/*</Image>*/}
-
-
-                    {/*<Text style={{marginBottom: 10}}>*/}
-                    {/*The idea with React Native Elements is more about component structure than actual design.*/}
-                    {/*</Text>*/}
-                    {/*</View>*/}
-                    {/*</Card>*/}
 
 
                 </View>
             </View>
             </View>
+
         );
     }
 }

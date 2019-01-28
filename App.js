@@ -90,8 +90,9 @@ const menuBar = createBottomTabNavigator({
     },
     {
         tabBarOptions: {
-            activeTintColor: '#6369D1',
-            inactiveTintColor: '#A9ADE5',
+            activeTintColor:  '#A9ADE5',
+            inactiveTintColor: '#6369D1',
+
 
             initialRouteName: weather,
 
