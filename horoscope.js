@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Platform, StatusBar, StyleSheet, Text, View, Image} from 'react-native';
+import {Platform, StatusBar, StyleSheet, Text, View, Image, ScrollView} from 'react-native';
 import {Button, Card} from "react-native-elements";
 import horoscopeinfo from './horoscopeinfo';
 import {withNavigation} from "react-navigation";
@@ -19,31 +19,97 @@ class horoscope extends Component<Props> {
                     <Text style={styles.text}  > Horoscope </Text>
                 </View >
 
-                <View style={{flex:9/10,}}>
-
-                <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
-
-                    <Image style={{ top:26,marginRight:20,}} source={require('./images/scorpio.png')}>
-                    </Image>
-                    <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> SCORPIO</Text>
-
-                </View>
-                    {/*<Card*/}
-                        {/*title='Scorpio'>*/}
-                        {/*<View style={{flexDirection: 'row',alignItems: 'space-between', justifyContent: 'center'}}>*/}
-
-                        {/*<Image source={require('./images/scorpio.png')}>*/}
-                        {/*</Image>*/}
+                <ScrollView style={{flex:9/10,}}>
 
 
-                        {/*<Text style={{marginBottom: 10}}>*/}
-                            {/*The idea with React Native Elements is more about component structure than actual design.*/}
-                        {/*</Text>*/}
-                        {/*</View>*/}
-                    {/*</Card>*/}
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/aries.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> ARIES</Text>
+
+                    </View>
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/taurus.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> TAURUS</Text>
+
+                    </View>
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/gemini.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> GEMINI</Text>
+
+                    </View>
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/cancer.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> CANCER</Text>
+
+                    </View>
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/leo.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> LEO</Text>
+
+                    </View>
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/virgo.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> VIRGO</Text>
+
+                    </View>
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/libra.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> LIBRA</Text>
+
+                    </View>
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/scorpio2.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> SCORPIO</Text>
+
+                    </View>
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/sagittarius.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> SAGITTARIUS</Text>
+
+                    </View>
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/capricorn.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> CAPRICORN</Text>
+
+                    </View>
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/aquarius.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> AQUARIUS</Text>
+
+                    </View>
+                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+
+                        <Image style={{ top:7,marginLeft:30,}} source={require('./images/pisces.png')}>
+                        </Image>
+                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> PISCES</Text>
+
+                    </View>
 
 
-                </View>
+
+                </ScrollView>
             </View>
         );
     }
@@ -86,6 +152,7 @@ const styles = StyleSheet.create({
         // justifyContent: 'center',
         // flexDirection: 'column',
         top:23,
+        marginRight:30,
 
     },
     card:{
@@ -95,8 +162,9 @@ const styles = StyleSheet.create({
         // marginRight: 10,
         margin: 10,
         flexDirection: 'row',
-        textAlign: 'center',
-        justifyContent: 'center',
+        // textAlign: 'center',
+        // alignItems: 'space-between',
+        justifyContent: 'space-between',
 
     }
 });

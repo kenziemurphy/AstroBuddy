@@ -1,5 +1,5 @@
 import React, {Component, } from 'react';
-import {Platform, StyleSheet, Text, View, StatusBar} from 'react-native';
+import {Platform, StyleSheet, Text, View, StatusBar, ImageBackground} from 'react-native';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 

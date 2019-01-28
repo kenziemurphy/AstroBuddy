@@ -1,12 +1,7 @@
 import React, {Component} from 'react';
-import {Platform, StatusBar, StyleSheet, Text, View, Image, Dimensions} from 'react-native';
+import {Platform, StatusBar, StyleSheet, Text, View, Image, Dimensions, ImageBackground} from 'react-native';
 
-const instructions = Platform.select({
-    ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-    android:
-        'Double tap R on your keyboard to reload,\n' +
-        'Shake or press menu button for dev menu',
-});
+
 
 type Props = {};
 export default class moon extends Component<Props> {
@@ -57,11 +52,27 @@ export default class moon extends Component<Props> {
 
                         <Text style={styles.text}> Moon </Text>
                     </View >
-                    <View style={{flex:9/10}}>
-                        <Image style={{ width: Dimensions.get('window').width - 100, height: Dimensions.get('window').width - 100, margin: 50}} source={this.state.moonPhaseImg}>
+                    <ImageBackground
+                        source={require('./images/nightsky3.jpeg')}
+                        style={{flex:9/10}}
+                    >
+                    {/*<View style={{flex:9/10} background}>*/}
+                        <Image style={{ width: Dimensions.get('window').width - 120, height: Dimensions.get('window').width - 120, margin: 50}} source={this.state.moonPhaseImg}>
                         </Image>
-                        <Text style={styles.welcome}>{this.state.moonPhaseDescription}</Text>
-                    </View>
+
+                    {/*</View>*/}
+                        <View style={styles.card}>
+                            <View style={{height: 50, borderBottomWidth: 1, borderBottomColor:'#FAF3F4',textAlign: 'center',
+                                justifyContent: 'center', borderBottomLeftRadius:10, borderBottomRightRadius:10,}}>
+                                <Text style={styles.welcome}>{this.state.moonPhaseDescription}</Text>
+                            </View>
+
+                            <Text style={{marginTop: 23, color:'#FAF3F4' }}> Next Full Moon:</Text>
+                            <Text style={{marginTop: 23, color:'#FAF3F4' }}> Next New Moon:</Text>
+
+                        </View>
+
+                    </ImageBackground>
                 </View>
             );
         }
@@ -141,5 +152,20 @@ const styles = StyleSheet.create({
     text:{
         fontSize: 25,
         color:'#6369D1',
-    }
+    },
+            cardHeader:{
+            fontSize: 25,
+            color:'#FAF3F4',
+            textAlign: 'center',
+            justifyContent: 'center',
+
+        },
+            card:{
+            backgroundColor:'#2F405C',
+            height: 160,
+            // marginLeft: 10,
+            // marginRight: 10,
+            margin: 10,
+
+        }
 });
