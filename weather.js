@@ -61,7 +61,7 @@ export default class weather extends Component<Props> {
                             <View style={{height: 70, borderBottomWidth: 1, borderBottomColor:'#FAF3F4',textAlign: 'center',
                                 justifyContent: 'center',alignItems:"center", borderBottomLeftRadius:10, borderBottomRightRadius:10,}}>
                                 <Icon
-                                    name={weatherIcons["partly-cloudy-night"]}
+                                    name={weatherIcons[this.state.weather["icon"]]}
                                     color={'#FAF3F4'}
                                     size={30}
                                 />
