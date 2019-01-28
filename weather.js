@@ -18,8 +18,8 @@ export default class weather extends Component<Props> {
 
         // initialize state
         this.state = {
-            latitude: null,
-            longitude: null,
+            latitude: "33.77483",
+            longitude: "-84.38048",
             weather: null
         };
 
@@ -105,7 +105,7 @@ export default class weather extends Component<Props> {
     loadWeather() {
 
         // get weather data from the server
-        return fetch('https://api.darksky.net/forecast/ece7aeb726d23f4ead9f3471e7b4088a/33.77483,-84.38048')
+        return fetch('https://api.darksky.net/forecast/ece7aeb726d23f4ead9f3471e7b4088a/' + this.state.latitude + ',' + this.state.longitude)
             .then((response) => response.json())
             .then((weather) => {
 
