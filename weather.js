@@ -18,11 +18,35 @@ export default class weather extends Component<Props> {
 
         // initialize state
         this.state = {
+            latitude: "33.77483",
+            longitude: "-84.38048",
             weather: null
         };
 
         // load weather data
         this.loadWeather();
+    }
+
+    componentDidMount() {
+
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+
+                alert("hello");
+
+                this.setState({
+                    latitude: position.coords.latitude,
+                    longitude: position.coords.longitude,
+                    weather: this.state.weather
+                });
+
+
+                alert(position.coords.latitude);
+            },
+            (error) => alert("error"),
+            { enableHighAccuracy: true, timeout: 1000 },
+        );
+
     }
 
     render() {
@@ -58,12 +82,12 @@ export default class weather extends Component<Props> {
                     </View >
                     <View style={{flex:9/10}}>
                         <View style={styles.card}>
-                            <View style={{height: 70, borderBottomWidth: 1, borderBottomColor:'#FAF3F4',textAlign: 'center',
+                            <View style={{height: 90, borderBottomWidth: 1, borderBottomColor:'#FAF3F4',textAlign: 'center',
                                 justifyContent: 'center',alignItems:"center", borderBottomLeftRadius:10, borderBottomRightRadius:10,}}>
                                 <Icon
-                                    name={weatherIcons["partly-cloudy-night"]}
+                                    name={weatherIcons[this.state.weather["icon"]]}
                                     color={'#FAF3F4'}
-                                    size={30}
+                                    size={50}
                                 />
                                 <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscope')}>{this.state.weather["summary"]}</Text>
                             </View>
@@ -71,23 +95,6 @@ export default class weather extends Component<Props> {
                             <Text style={{margin: 7, color:'#FAF3F4' }}>Precipitation: {this.state.weather["precipProbability"] * 100}%</Text>
                             <Text style={{margin: 7, color:'#FAF3F4' }}>Humidity: {this.state.weather["humidity"] * 100}%</Text>
                             <Text style={{margin: 7, color:'#FAF3F4' }}>Wind: {this.state.weather["windSpeed"]} mph</Text>
-
-                            {/*</View>*/}
-                            {/*<Card*/}
-                            {/*title='Scorpio'>*/}
-                            {/*<View style={{flexDirection: 'row',alignItems: 'space-between', justifyContent: 'center'}}>*/}
-
-                            {/*<Image source={require('./images/scorpio.png')}>*/}
-                            {/*</Image>*/}
-
-
-                            {/*<Text style={{marginBottom: 10}}>*/}
-                            {/*The idea with React Native Elements is more about component structure than actual design.*/}
-                            {/*</Text>*/}
-                            {/*</View>*/}
-                            {/*</Card>*/}
-
-
                         </View>
                     </View>
                 </View>
@@ -98,12 +105,14 @@ export default class weather extends Component<Props> {
     loadWeather() {
 
         // get weather data from the server
-        return fetch('https://api.darksky.net/forecast/ece7aeb726d23f4ead9f3471e7b4088a/33.77483,-84.38048')
+        return fetch('https://api.darksky.net/forecast/ece7aeb726d23f4ead9f3471e7b4088a/' + this.state.latitude + ',' + this.state.longitude)
             .then((response) => response.json())
             .then((weather) => {
 
             // update state with the newly loaded weather data
             this.setState({
+                latitude: this.state.latitude,
+                longitude: this.state.longitude,
                 weather: weather["currently"]
             });
         });
