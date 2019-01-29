@@ -80,7 +80,7 @@ type Props = {};
 
                         <TouchableOpacity  style={{alignSelf:'center', marginTop: 15}} onPress={()=> this.props.navigation.navigate('horoscope')}>
                             <View style={{backgroundColor:'#FAF3F4', }}>
-                            <Text style={{color:'#2F405C', fontSize:15, textAlign: 'center', paddingRight:3}}> RETURN </Text>
+                            <Text style={{color:'#2F405C', fontSize:15, textAlign: 'center', paddingRight:8, padding:5}}> RETURN </Text>
                             </View>
                         </TouchableOpacity>
 
@@ -133,7 +133,7 @@ const styles = StyleSheet.create({
     },
     card:{
         backgroundColor:'#2F405C',
-        height: 160,
+        height: 180,
         // marginLeft: 10,
         // marginRight: 10,
         margin: 10,
