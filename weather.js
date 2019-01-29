@@ -27,16 +27,12 @@ export default class weather extends Component<Props> {
         navigator.geolocation.getCurrentPosition(
             (position) => {
 
-                alert("hello");
-
                 this.setState({
                     latitude: position.coords.latitude,
                     longitude: position.coords.longitude,
                     weather: this.state.weather
                 });
 
-
-                alert(position.coords.latitude);
             },
             (error) => alert("error"),
             { enableHighAccuracy: true, timeout: 1000 },

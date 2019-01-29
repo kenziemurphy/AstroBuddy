@@ -4,6 +4,12 @@ import {Button, Card} from "react-native-elements";
 import horoscope from './horoscope';
 import {withNavigation} from "react-navigation";
 import {Emitter} from "react-native-particles";
+// import firebase db config
+import {db} from './config';
+
+// really struggled to get firebase to work due to this issue
+// https://github.com/facebook/react-native/issues/20902
+// rahimrahman's answer fixed it
 
 const instructions = Platform.select({
     ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -14,6 +20,39 @@ const instructions = Platform.select({
 
 type Props = {};
  class horoscopeinfo extends Component<Props> {
+
+     constructor(props) {
+         super(props);
+
+         this.state = {
+             name: this.props.navigation.getParam('sign', "Gemini"),
+             description: "Loading..."
+         }
+     }
+
+     componentDidMount() {
+
+
+
+         // retrieve horoscopes from database
+        db.ref('/horoscope').on('value', snapshot => {
+
+            // extract data
+             let data = snapshot.val();
+             let items = Object.values(data);
+
+             // extract only the data for the star sign that we are interested in
+            items = items.filter((item) => {
+                return item.sign === this.state.name;
+            });
+
+             this.setState({
+                 name: this.state.name,
+                 description: items[0]["description"]
+             });
+         });
+     }
+
     render() {
         return (
 
@@ -35,9 +74,9 @@ type Props = {};
                     <View style={styles.card}>
                         <View style={{height: 40, borderBottomWidth: 1, borderBottomColor:'#FAF3F4',textAlign: 'center',
                             justifyContent: 'center', borderBottomLeftRadius:10, borderBottomRightRadius:10,}}>
-                            <Text style={styles.cardHeader}> SCORPIO</Text>
+                            <Text style={styles.cardHeader}> {this.state.name.toUpperCase()} </Text>
                         </View>
-                        <Text style={{margin: 10, color:'#FAF3F4' }}> stuf lots of tstuf theithksth tskfhstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskfstuf lots of tstuf theithksth tskf</Text>
+                        <Text style={{margin: 10, color:'#FAF3F4' }}> {this.state.description} </Text>
 
                         <TouchableOpacity  style={{alignSelf:'center', marginTop: 15}} onPress={()=> this.props.navigation.navigate('horoscope')}>
                             <View style={{backgroundColor:'#FAF3F4', }}>

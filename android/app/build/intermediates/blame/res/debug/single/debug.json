@@ -64,20 +64,20 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable\\abc_vector_test.xml"
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -96,16 +96,20 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_node_modules_reactnavigationstack_src_views_assets_backicon.png.flat",
         "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-hdpi\\node_modules_reactnavigationstack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_capricorn.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_capricorn.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -140,16 +144,16 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
@@ -160,12 +164,12 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_spinner.xml.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_spinner.xml.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\color\\abc_tint_spinner.xml"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_switch_track.xml.flat",
@@ -176,12 +180,12 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_light.xml.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable\\tooltip_frame_light.xml"
-    },
-    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c291475764d80542a0590eafef5c7ea6\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_light.xml.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable\\tooltip_frame_light.xml"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
@@ -200,20 +204,20 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\color-v23\\abc_tint_default.xml"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_default_mtrl_shape.xml.flat",
@@ -284,12 +288,12 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_text_material.xml.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\color\\abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_fade_out.xml.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\react-native-0.58.1.aar\\784d436fa8a97ce5a03f310fce9de89e\\res\\anim\\catalyst_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_text_material.xml.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -326,6 +330,10 @@
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_virgo.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_virgo.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
@@ -432,12 +440,12 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -480,24 +488,32 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_redbox_item_title.xml.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\react-native-0.58.1.aar\\784d436fa8a97ce5a03f310fce9de89e\\res\\layout\\redbox_item_title.xml"
-    },
-    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c291475764d80542a0590eafef5c7ea6\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_redbox_item_title.xml.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\react-native-0.58.1.aar\\784d436fa8a97ce5a03f310fce9de89e\\res\\layout\\redbox_item_title.xml"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_fullmoon.png.flat",
         "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_fullmoon.png"
     },
     {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c291475764d80542a0590eafef5c7ea6\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c291475764d80542a0590eafef5c7ea6\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_nightsky3.jpeg.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_nightsky3.jpeg"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_rain.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_rain.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
@@ -544,16 +560,16 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\react-native-0.58.1.aar\\784d436fa8a97ce5a03f310fce9de89e\\res\\xml\\network_security_config.xml"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\react-native-0.58.1.aar\\784d436fa8a97ce5a03f310fce9de89e\\res\\xml\\network_security_config.xml"
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -658,6 +674,10 @@
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_leo.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_leo.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -780,6 +800,10 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_libra.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_libra.png"
+    },
+    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_node_modules_reactnavigationstack_src_views_assets_backicon.png.flat",
         "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-xhdpi\\node_modules_reactnavigationstack_src_views_assets_backicon.png"
     },
@@ -852,6 +876,10 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\color\\abc_search_url_text.xml"
     },
     {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_scorpio2.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_scorpio2.png"
+    },
+    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
@@ -886,6 +914,10 @@
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_cancer.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_cancer.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -926,6 +958,10 @@
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_waninggibbous.png.flat",
         "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_waninggibbous.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_taurus.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_taurus.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_fade_in.xml.flat",
@@ -1140,6 +1176,10 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_pisces.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_pisces.png"
+    },
+    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
@@ -1164,8 +1204,16 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_aries.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_aries.png"
+    },
+    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_sagittarius.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_sagittarius.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
@@ -1484,6 +1532,10 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_aquarius.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_aquarius.png"
+    },
+    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
@@ -1592,12 +1644,12 @@
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
-        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\color\\abc_hint_foreground_material_dark.xml"
-    },
-    {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
+        "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -1614,6 +1666,10 @@
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\Benjamin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5c8f66c7fd169efd9ab121f1b146b3b7\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_images_gemini.png.flat",
+        "source": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\src\\main\\res\\drawable-mdpi\\images_gemini.png"
     },
     {
         "merged": "D:\\Benjamin\\Documents\\AstroBuddy\\AstroBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
