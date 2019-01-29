@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Platform, StatusBar, StyleSheet, Text, View, Image, ScrollView} from 'react-native';
+import {Platform, StatusBar, StyleSheet, Text, View, Image, ScrollView, TouchableOpacity} from 'react-native';
 import {Button, Card} from "react-native-elements";
 import horoscopeinfo from './horoscopeinfo';
 import {withNavigation} from "react-navigation";
@@ -22,90 +22,90 @@ class horoscope extends Component<Props> {
                 <ScrollView style={{flex:9/10,}}>
 
 
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    <TouchableOpacity  style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/aries.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> ARIES</Text>
+                        <Text style={styles.cardHeader}> ARIES</Text>
 
-                    </View>
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/taurus.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> TAURUS</Text>
+                        <Text style={styles.cardHeader}> TAURUS</Text>
 
-                    </View>
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/gemini.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> GEMINI</Text>
+                        <Text style={styles.cardHeader}> GEMINI</Text>
 
-                    </View>
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/cancer.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> CANCER</Text>
+                        <Text style={styles.cardHeader} > CANCER</Text>
 
-                    </View>
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/leo.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> LEO</Text>
+                        <Text style={styles.cardHeader} > LEO</Text>
 
-                    </View>
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/virgo.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> VIRGO</Text>
+                        <Text style={styles.cardHeader}> VIRGO</Text>
 
-                    </View>
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/libra.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> LIBRA</Text>
+                        <Text style={styles.cardHeader} > LIBRA</Text>
 
-                    </View>
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/scorpio2.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> SCORPIO</Text>
+                        <Text style={styles.cardHeader} > SCORPIO</Text>
 
-                    </View>
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/sagittarius.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> SAGITTARIUS</Text>
+                        <Text style={styles.cardHeader}> SAGITTARIUS</Text>
 
-                    </View>
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/capricorn.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> CAPRICORN</Text>
+                        <Text style={styles.cardHeader}> CAPRICORN</Text>
 
-                    </View>
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/aquarius.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> AQUARIUS</Text>
+                        <Text style={styles.cardHeader}> AQUARIUS</Text>
 
-                    </View>
-                    <View style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.card} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}>
 
                         <Image style={{ top:7,marginLeft:30,}} source={require('./images/pisces.png')}>
                         </Image>
-                        <Text style={styles.cardHeader} onPress={()=> this.props.navigation.navigate('horoscopeinfo')}> PISCES</Text>
+                        <Text style={styles.cardHeader}> PISCES</Text>
 
-                    </View>
+                    </TouchableOpacity>
 
 
 
