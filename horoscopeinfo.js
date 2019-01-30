@@ -4,8 +4,6 @@ import {Button, Card} from "react-native-elements";
 import horoscope from './horoscope';
 import {withNavigation} from "react-navigation";
 import {Emitter} from "react-native-particles";
-// import firebase db config
-import {db} from './config';
 
 // really struggled to get firebase to work due to this issue
 // https://github.com/facebook/react-native/issues/20902
@@ -32,25 +30,25 @@ type Props = {};
 
      componentDidMount() {
 
+         // get weather data from the server
+         return fetch('https://astrobuddy-59d2d.firebaseio.com/horoscope.json')
+             .then((response) => response.json())
+             .then((data) => {
 
+                 // extract data
+                 let items = Object.values(data);
 
-         // retrieve horoscopes from database
-        db.ref('/horoscope').on('value', snapshot => {
+                 // extract only the data for the star sign that we are interested in
+                 items = items.filter((item) => {
+                     return item.sign === this.state.name;
+                 });
 
-            // extract data
-             let data = snapshot.val();
-             let items = Object.values(data);
+                 this.setState({
+                     name: this.state.name,
+                     description: items[0]["description"]
+                 });
 
-             // extract only the data for the star sign that we are interested in
-            items = items.filter((item) => {
-                return item.sign === this.state.name;
-            });
-
-             this.setState({
-                 name: this.state.name,
-                 description: items[0]["description"]
-             });
-         });
+             }).catch((error) => console.log(error));
      }
 
     render() {
