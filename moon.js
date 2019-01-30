@@ -62,13 +62,12 @@ export default class moon extends Component<Props> {
 
                     {/*</View>*/}
                         <View style={styles.card}>
-                            <View style={{height: 50, borderBottomWidth: 1, borderBottomColor:'#FAF3F4',textAlign: 'center',
+                            <View style={{height: 80, borderBottomWidth: 1, borderBottomColor:'#FAF3F4',textAlign: 'center',
                                 justifyContent: 'center', borderBottomLeftRadius:10, borderBottomRightRadius:10,}}>
                                 <Text style={styles.welcome}>{this.state.moonPhaseDescription}</Text>
                             </View>
 
-                            <Text style={{marginTop: 23, color:'#FAF3F4' }}> Next Full Moon:</Text>
-                            <Text style={{marginTop: 23, color:'#FAF3F4' }}> Next New Moon:</Text>
+
 
                         </View>
 
@@ -131,7 +130,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#011638',
     },
     welcome: {
-        fontSize: 20,
+        fontSize: 30,
         textAlign: 'center',
         margin: 10,
         color: 'white',
@@ -162,7 +161,7 @@ const styles = StyleSheet.create({
         },
             card:{
             backgroundColor:'#2F405C',
-            height: 160,
+            height: 110,
             // marginLeft: 10,
             // marginRight: 10,
             margin: 10,

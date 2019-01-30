@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>CDD0A7E0-13C3-4A26-AD33-F46ED282EACE</key>
+		<key>12BB9E75-87BE-4B36-B04C-48CC6769102C</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>CDD0A7E0-13C3-4A26-AD33-F46ED282EACE.xcactivitylog</string>
+			<string>12BB9E75-87BE-4B36-B04C-48CC6769102C.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,42 @@
 			<key>signature</key>
 			<string>Building project AstroBuddy with scheme AstroBuddy and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>570422801.92260206</real>
+			<real>570508465.72637498</real>
 			<key>timeStoppedRecording</key>
-			<real>570422803.37535906</real>
+			<real>570508471.35799694</real>
 			<key>title</key>
 			<string>Building project AstroBuddy with scheme AstroBuddy and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>CDD0A7E0-13C3-4A26-AD33-F46ED282EACE</string>
+			<string>12BB9E75-87BE-4B36-B04C-48CC6769102C</string>
+		</dict>
+		<key>384ACDD4-6162-4CE6-B179-191752C9E819</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>384ACDD4-6162-4CE6-B179-191752C9E819.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>AstroBuddy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AstroBuddy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project AstroBuddy with scheme AstroBuddy and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>570489299.326069</real>
+			<key>timeStoppedRecording</key>
+			<real>570489305.62065005</real>
+			<key>title</key>
+			<string>Building project AstroBuddy with scheme AstroBuddy and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>384ACDD4-6162-4CE6-B179-191752C9E819</string>
 		</dict>
 	</dict>
 </dict>

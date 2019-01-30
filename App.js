@@ -27,17 +27,26 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 //https://reactnavigation.org/docs/en/tab-based-navigation.html
 
 
-export const HoroscopeStack = createSwitchNavigator({
+export const HoroscopeStack = createStackNavigator({
     horoscope: {
         screen: horoscope,
+        headerMode: 'none',
+        navigationOptions: {
+            header: null
+        }
+
     },
     horoscopeinfo: {
         screen: horoscopeinfo,
+        headerMode: 'none',
+        navigationOptions: {
+            header: null
+        }
     },
 
 
 
-    headerMode: 'none'
+
 });
 
 // creates a tab bar at the bottom of screens with icons for Map, Schedule, Settings, and Inbox that allows navigation
